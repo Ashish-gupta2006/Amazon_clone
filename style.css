@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: border-box;
+}
+.navbar{
+    background-color: #0F1111;
+    height: 60px;
+    width: 100%;
+color: white;
+display: flex;
+justify-content: space-evenly;
+/* position: fixed; */
+}
+.nav-left-div{
+    width: 204.64px;
+    height: 60px;
+    display: flex;
+}
+.nav-logo{
+    background-image: url("/imaze/amazon-logo.jpg");
+    width: 113px; 
+     height: 50px;
+     color:#007185;
+background-size:contain;
+margin: 1px;
+padding: 1px 8px 0px 6px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.nav-address {
+width: 88.64px;
+height: 50px;
+margin: 1px;
+padding: 0px 9px;
+}
+.address{
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 13px;
+    margin-top: 9px;
+} 
+.nav-location{
+    display: flex;
+     margin: 0px 0px 8px 0px;
+
+}
+.location{
+    font-size: 14px;
+    padding: 1px 0px 1px 3px;
+    color: #ffffff;
+}
+/* div search box */
+.div-search{
+width: 433.33px;
+height: 40px;
+display: flex;
+justify-content: space-evenly;
+padding: 10px 4px 10px 3px;
+}
+.amazon-goods{
+    width:52px ;
+    height:40px ;
+    color:#0f1111;
+    background-color: #E6E6E6;
+    font-size: 14px;
+    padding: 0px 0px 0px 5px;
+    border-style:none ;
+}
+.nav-search-field{
+    width:100%;
+    height:40px;
+    color:#0F1111;
+    background-color: #ffffff;
+    border-style: none;
+}
+.amazon-search{
+    border-style: none;
+    width:100%;
+    height: 20px;;
+    padding: 7px 0px 7px 0px;
+   text-align:start;
+   text-justify: center;
+}
+.amazon-ican{
+    width: 45px;
+    height: 40px;
+    background-color: rgb(244, 188, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black ;
+    font-size :20px;
+}
+
+ .amazon-search:focus-visible{
+    outline-style: none;
+}
+
+
+.right-nav{
+    width: 345px;
+    height: 60px;
+    color: #0F1111;
+    font-size: 14px;
+    margin: 2px 0px 0px;
+    padding: 3px 0px 0px;
+    display: flex;
+}
+.nav-lang{
+    width: 74px;
+    height: 50px;
+    margin: 0px 0px 0px 1px;
+    padding: 0px 9px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-flag{
+    width: 21.2px;
+    height: 16px;
+    margin: 0px 3px 1px 0px;
+    background-image: url("/imaze/flag.jpg");
+    background-size: cover;
+}
+.nav-country-name{
+    width: 18px;
+    height: 16px;
+    color:#ffffff;
+    font-size:16px;
+} 
+.nav-flag-country-name{
+    width: 8px;
+    height: 16px;
+    margin: 6px 0px 0px 2px;
+color:white;
+align-items:self-end;
+} 
+.nav-account{
+    width:120px;
+    height:50px;
+    color:#d6d6d6;
+    font-size: 14px;
+    padding:0px 9px 0px ;
+}
+.nav-div-account{
+    width: 114px;
+    height: 14px;
+    margin:5px 0px 0px;
+}
+.nav-account-line1{
+    width: 71px;
+    height:14px;
+    color:#ffffff;
+    font-size:12px;
+}
+
+.nav-account-line2{
+    width: 114px;
+    height: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.nav-account-ican{
+    width: 8px;
+    height: 4px;
+    margin: 3px 0px 0px 5px;
+}
+.nav-return{
+    width: 77px;
+    height:50px;
+    color:#d6d6d6;
+    padding:0px 8px 1px 8px;
+    font-size:14px;
+    text-decoration: none;
+
+}
+.nav-return-product{
+    width:59px;
+    height:14px;
+    color:#ffffff;
+    font-size:12px;
+    margin:9px 0px 0px;
+}
+
+.nav-orders{
+    width: 59px;
+    height:15px;
+    color:#ffffff;
+    font-size: 14px;
+}
+
+/* nav cart */
+.nav-cart{
+    width: 84px;
+    height: 50px;
+    color:#d6d6d6;
+    font-size:14px;
+    margin:0px 1px 0px 0px;
+    padding:0px 9px 7px;
+    display: flex;
+    /* justify-content: center; */
+    text-decoration: none;
+}
+
+.cart{
+    width: 88px;
+    height: 39px;
+    color:#d6d6d6;
+    font-size:14px;
+    padding:0px 0px 1px;
+}
+.nav-number{
+width: 19px;
+height:16px;
+color:#f08804;
+font-size:16px;
+padding-left: 17px;
+}
+.cart-figure{
+    display: block;
+    font-size: xx-large;
+    color: rgba(255,255,255,0.5);
+}
+.massage{
+    color:#ffffff;
+    font-size:14px;
+    margin-top: 35px;
+    margin-right: 35px;
+
+}
+/* second navbar  */
+.second-nav{
+    height: 39px;
+    width: 100%;
+    background-color: #232F3F;
+    color: #0F1111;
+    font-size: 12px;
+    font-family:  Arial, Helvetica, sans-serif;
+    padding-left: 1px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-div{
+    width: 58px;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 9px;
+}
+
+.nav-massage{
+text-decoration: none;
+color: white;
+}
+
+/* right div  */
+.right-div{
+    width: 70%;
+    height: 39px;   
+    display: flex;
+    text-align: center;
+    justify-content: center;  
+}
+.right-div a{
+    display: block;
+}
+.right-massage{
+    text-decoration: none;
+    color:#ffffff; 
+    padding: 8px 9px;
+    margin: 6px 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    font-size: 14px; 
+   
+}
+
+.right-div-second{
+    height: 39px;
+    width: 30%;
+    padding-left: 18px;
+     background-image: url("/imaze/amazon.jpg");
+    background-size: cover;
+    font-size: 10px; 
+
+}
+
+
+/* main in side hiero section */
+.hero-section{
+
+    height:300px;
+    width: 100%;
+    background-image: url("/imaze/electronic.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    animation-name: hero;
+    animation-duration:10s;
+    animation-timing-function:steps(0);
+    animation-iteration-count: infinite;
+    animation-delay:0s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+} 
+/* animation to hero section */
+@keyframes hero{
+    0%{    background-image: url("imaze/electronic.jpg");  }
+ 25%{    background-image: url("imaze/girl.jpg"); }
+    50%{    background-image: url("imaze/timar.jpg");    }
+    75%{background-image: url("imaze/watch.jpg");}
+    100%{background-image: url("imaze/cloth.jpg");}
+}
+.hero-section-massagr {
+    height: 30px;
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+
+.hero-section-massagr a{
+color:#007185;
+text-decoration: none;
+}
+
+
+.hero-section-massagr p{
+    font-size: 14px;
+}
+
+/* artical section */
+
+article{
+    display:flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    background-color: #007185;
+    /* margin-bottom: 15px; */
+
+}
+.box{
+     background-color: white;
+     height: 20%;
+     width: 24%;
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+    }
+
+    .first {
+        padding: 0px 10px;
+        height: 420px;
+        width: 91%;
+    }
+
+    .second{
+        width: 100%;
+        height: 385px;
+        padding: 20px 0px 15px 0px;
+    }
+
+.third{
+    width: 100%;
+    height: 27px;
+    margin-bottom: 10px;
+}
+.four{
+    width: 100%;
+    height: 310px;
+    background-image: url("imaze/box10.jpg");
+    background-size: contain;
+    background-position: center :center;
+    background-size: 100%  100%;
+
+}
+.box span a{
+    text-decoration: none;
+    color: #007185;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+.box2 .four{
+    background-image: url("imaze/box11.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size : 100%  100%;
+    background-repeat: no-repeat;
+
+}
+.box3 .four{
+    background-image: url("imaze/box12.jpg");
+    background-size:contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box4 .four{
+    background-image: url("imaze/box13.jpg");
+    background-size: contain;
+    background-position: center :center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+.box5 .four{
+    background-image: url("imaze/box14.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat:no-repeat;
+}
+
+.box6 .four{
+    background-image: url("imaze/box15.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.box7 .four{
+    background-image: url("imaze/box16.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box8 .four{
+    background-image: url("imaze/box1.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box9 .four{
+    background-image: url("imaze/box2.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+.box10 .four{
+    background-image: url("imaze/box3.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box11 .four{
+    background-image: url("imaze/box4.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box12 .four{
+    background-image: url("imaze/box5.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+.box13 .four{
+    background-image: url("imaze/box6.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box14 .four{
+    background-image: url("imaze/box2.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box15 .four{
+    background-image: url("imaze/box8.jpg");
+    background-size:contain;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+.box16 .four{
+    background-image: url("imaze/box9.jpg");
+    background-size:cover;
+    background-position: center center;
+    background-size: 100%  100%;
+    background-repeat: no-repeat;
+
+}
+
+
+/* footer painal */
+.footer-top{
+    height:125px;
+    /* width: 100%; */
+    padding: 0px 20px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-top-width: 2px;
+    border-top-style: dashed;
+    border-top-color :#EEEEEE;
+
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color:  #EEEEEE;
+}
+
+.top-four{
+    height: 20px;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f08804; */
+}
+
+.top-first p{
+    color: #000000;
+font-size:14px;
+}
+
+.top-second{
+    height:40px;
+    width: 300px;
+    background-color: rgba(195, 167, 10, 0.89);
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+font-size: 12px;
+}
+
+.top-box2{
+    margin-top: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+.back{
+    background-color:#232F3F ;
+    height: 50px;
+}
+
+.footer-middle{
+    height: 300px;
+    background-color: #0F1111;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-middle ul{
+    color: #EEEEEE;
+    /* display: block; */
+}
+
+ul{
+    margin: 10px;
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.last{
+    background-color: #0f1111;
+    height: 68px;
+    border-top: 0.5px dashed #EEEEEE;
+    padding:  10px 7px;
+    font-size:12px ;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language{
+    height: 33px;
+    width: 118px;
+    color: #cccccc;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 0px 0px 10px;
+    margin: 0px 10px 0px 150px;
+    display: flex;
+}
+
+.language p{
+    padding-left: 10px;
+}
+.dolar{
+    height: 33px;
+    width: 130px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 18px 6px 8px;
+    margin-right: 10px;
+    display: flex;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.dolar i{
+    margin-right: 10px;
+}
+
+.flag-fotter{
+    height: 33px;
+    width: 130px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px 18px 6px 8px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.flage{
+height: 30px;
+width: 40px;
+    background-image: url("/imaze/flag.jpg");
+    background-size: cover;
+}
+
+.flag-fotter p{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+main{
+    overflow:hidden;
+}
